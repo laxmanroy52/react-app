@@ -21,7 +21,9 @@ const App = () => {
               colorName.map(myColor => (
                  <Color 
                     onClick={() => setColor(myColor)} 
-                    key={myColor} name={myColor} />
+                    key={myColor} 
+                   name={myColor}
+                   style={{backgroundColor: color}} />
                  ))
          }
       
